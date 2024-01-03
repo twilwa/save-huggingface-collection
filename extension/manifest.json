@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Hugging Face Collections Saver",
+    "version": "1.0",
+    "description": "Save and manage Hugging Face collections.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_security_policy": "script-src 'self' https://api.huggingface.co; object-src 'self'"
+}

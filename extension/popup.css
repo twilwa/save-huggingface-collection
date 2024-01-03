@@ -1,0 +1,17 @@
+/* popup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+#container {
+    width: 300px;
+}
+
+#collections-list div {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
